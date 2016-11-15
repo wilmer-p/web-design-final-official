@@ -1,0 +1,63 @@
+ul{
+	padding: 0px; 
+	
+}
+
+#header{
+	width: 1050px;
+	height: 200px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(11,41,100);
+	margin-bottom: 5px;
+}
+
+#leftcontent{
+	width: 310px;
+	height: 600px;
+	background-color: red;
+	margin: 0px;
+	float: left; 
+}
+
+#homepic{
+	width: 740px;
+	height: 600px;
+	background-color: blue;
+	float: left;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+
+
+li{
+	text-align: center; 
+	padding: 15px; 
+	font-family: georgia;
+	
+	list-style-type: none;
+	float: left;
+	font-size: 25px; 
+	margin-top: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: #000000
+}
+
+h1{
+	float:left;
+}
+
+
+a:hover{
+	color: rgb(10,155,217);
+}
+
+img{
+	padding: 7px;
+	margin: 0px; 
+	float: left;
+}
