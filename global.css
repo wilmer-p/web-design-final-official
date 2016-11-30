@@ -1,36 +1,39 @@
-.container{
+
+.container{ /**centers whole page**/
     margin: 0 auto;
     width: 1002px;
 }
-/** Scales image
-img {
-    width: 100%;
-    height: auto;
-}
-**/
 
-#header{
+#header{ /**menu and logo are here**/
     background-color: white;
     width: 1000px;
-    height: 190px;
+    height: 130px;
     margin: 2px;
 }
 
+img{ /**logo that appears on header**/
+    padding-top: 20px; 
+}
+
 #menu{
-    background-color: #BBBBBB;
-    width: 750px;
-    height: 50px;
+    background-color: white;
+    width: 730px; /** used to be 820px**/
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
     float: right;
 }
 
 
-ul{
-    font-family: verdana, sans-serif;
+ul{ /**menu text**/
+    font-family: 'Ubuntu', sans-serif; 
+    text-transform: uppercase;
     list-style-type: none;
     margin: 0;
     padding: 0px;
     overflow: hidden;
     background-color: white;
+    float: right; 
 }
 
 li{
@@ -39,40 +42,66 @@ li{
 
 li a{
     display: block;
-    color: #ADADAD;
+    color: rgb(11,41,100); /** #a6a6a6; << alternate grey color for menu font **/ 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-bottom: 2px solid #d9d9d9;
+
 }
 
-li a:hover{
-    background-color: #A6D2FF;
+li a:hover{ /** menu link hover state **/
+    border-bottom-color: #80bfff; /** turns bottom bar light blue when mouse hovers on link **/
 }
 
-
-#leftVertical{
-    width: 300px;
-    height: 400px;
-    background-color: #BBBBBB;
-    margin: .5px;
-    float: left;
-}
-
-#rightHorizontal{
-    width: 700px;
-    height: 400px;
-    background-color: #BBBBBB;
-    margin: 0.5px;
-    float: right;
+li a.active { /** indicates current page on menu, not sure if this works yet **/
+    background-color: #4CAF50; 
+    color: white;
 }
 
 .clear{
     clear: both;
 }
 
-#footer{
-    background-color: #BBBBBB;
+#footer{ 
+    background-color: white;
     width: 1000px;
-    height: 130px;
-    margin: 2px;
+    height: 100px;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #8c8c8c;
+    font-size: 12px;
+    padding:20px;
+}
+
+#footerMenu{
+    background-color: white;
+    width: 1000; /** used to be 820px**/
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 1px;
+    float: right;
+}
+
+
+#footerUl{ /**menu text**/
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 10px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;    
+    float: left; 
+}
+
+li.footerLi a{
+    border: none;
+    padding-bottom: 50px;
+    color: rgb(11,41,100);
 }
