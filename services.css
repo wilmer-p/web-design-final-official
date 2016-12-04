@@ -1,0 +1,78 @@
+#mainservices{
+	width: 999px;
+    height: 300px;
+	border-style: solid;
+	border-color: rgb(11,41,100);
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-width: 2px;
+	
+}
+
+
+.miniservices{
+	width: 220px;
+	height: 420px;
+	float: left;
+	margin: 17.6px;
+	margin-top: 5px;	
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(11,41,100);
+	
+}
+
+#construction{
+	margin-left: 0px;
+}
+
+#landscape{
+	margin-right: 0px;
+}
+
+#servicesLogo{
+	width: 400px;
+	height: auto;
+	float: right;
+	padding: 15px;
+}
+
+#leftText{
+	width: 400px;
+	margin-left: 90px;
+	margin-top: 10px;
+	float: left;
+}
+
+#leftText p{
+	font-family: 'Ubuntu', sans-serif;
+	color: #707C80;
+}
+
+#leftText h1{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: rgb(11,155,217);
+}
+
+
+.miniservices img{	
+	width: 200px;
+	height: auto;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+.miniservices h2{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 10px;
+	text-align: center; 
+	color: rgb(11,155,217);
+}
+
+.miniservices p {
+	margin: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #707C80;
+}
