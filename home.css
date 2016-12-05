@@ -10,7 +10,8 @@ h1{ /** Header text "WELCOME" **/
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
-    }
+    padding-top: 20px;
+}
 
 #Horizontal{ /** Whole horizontal div with background image **/
     width: 1000px;
@@ -21,21 +22,23 @@ h1{ /** Header text "WELCOME" **/
 }
 
 #imgDiv{ /** Div inside of the transparent div, centers logo image **/
-    width: 240px;
+    width: 100px;
     height: 185px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 70px;
 }
 
 #homeLogo{
-    width: 240px;
+    width: 170px;
     height: auto;
+    padding-right: 50px;
     
 }
 
 p{ /** Paragraph text, "Lorem ipsum..." **/
-    padding: 20px; 
+    padding: 25px; 
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: rgba(11,41,100,.5);
