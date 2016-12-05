@@ -1,0 +1,113 @@
+#Horizontal{ /** Whole horizontal div with background image **/
+    width: 1000px;
+    height: 1050px;
+    background-color: white;;
+    margin: 0.5px;
+}
+
+#titleText{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("../images/titlebckgnd2.jpg")
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    padding-top: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    padding-top: 30px;
+}
+
+#history{
+    margin: 0 auto;
+    background: white;
+    width: 500px;
+    height: auto;
+}
+
+p{ /** Paragraph text, "Lorem ipsum..." **/
+    padding-top: 10px; 
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: #707C80;
+    line-height: 28px;
+}
+
+#imgContainer{
+    margin: 0 auto;
+    background: white;
+    width: 700px;
+    height: auto;
+}
+
+#portrait1{
+    width: 150px;
+    height: auto;
+    margin: 30px;
+    padding-right: 30px;
+}
+
+#portrait2{
+    width: 150px;
+    height: auto;
+    margin: 30px;
+}
+
+#portrait3{
+    width: 150px;
+    height: auto;
+    margin: 30px;
+    float: right;
+}
+
+#founder1{
+    width:150px;
+    height: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding-top: 0px;
+    padding-left: 35px;
+    float: left;
+
+}
+
+#founder2{
+    width:150px;
+    height: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding-left: 90px;
+    float: left;
+
+}
+
+#founder3{
+    width:150px;
+    height: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding-right: 30px;
+    float: right;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(11,41,100,.5);
+}
+
+.description{
+    font-size: 14px;
+    text-align: left;
+}
+
