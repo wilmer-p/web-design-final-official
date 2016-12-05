@@ -61,10 +61,10 @@ li a:hover{ /** menu link hover state **/
     border-bottom-color: #80bfff; /** turns bottom bar light blue when mouse hovers on link **/
 }
 
-li a.active { /** indicates current page on menu, not sure if this works yet **/
-    background-color: #4CAF50; 
-    color: white;
-}
+/**body.about a.about { ndicates current page on menu, not sure if this works yet *
+    background-color: #BBBBBB; 
+    
+}**/
 
 .clear{
     clear: both;
@@ -141,3 +141,5 @@ li.footerLi a{
 a {
    text-decoration: none;
 }
+
+
