@@ -1,34 +1,66 @@
+#body{
+    width: 1000px;
+    height: 900px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    padding-top: 30px;
+}
+
+
+#titleText{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("../images/titlebckgnd2.jpg");
+}
+
+
+#leftTitle{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    padding-top: 10px;
+}
+
 #mainservices{
 	width: 999px;
     height: 300px;
 	border-style: solid;
-	border-color: rgb(11,41,100);
+	border-color: white;/** #BBBBBB;**/
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-width: 2px;
+	padding-bottom: 20px;
 	
 }
 
 
 .miniservices{
-	width: 220px;
-	height: 420px;
+	width: 218px;
+	height: 510px;
 	float: left;
 	margin: 17.6px;
 	margin-top: 5px;	
 	border-style: solid;
 	border-width: 2px;
-	border-color: rgb(11,41,100);
+	border-color: #DADEDF; /**white**/
 	
 }
 
 #construction{
 	margin-left: 0px;
+	float: left;
 }
 
 #landscape{
 	margin-right: 0px;
+	float: right;
 }
 
 #servicesLogo{
@@ -40,7 +72,7 @@
 
 #leftText{
 	width: 400px;
-	margin-left: 90px;
+	margin-left: 20px;
 	margin-top: 10px;
 	float: left;
 }
@@ -48,12 +80,14 @@
 #leftText p{
 	font-family: 'Ubuntu', sans-serif;
 	color: #707C80;
+	line-height: 28px;
+	
 }
 
 #leftText h1{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	color: rgb(11,155,217);
+	color: rgba(11,41,100,.5);
 }
 
 
@@ -61,6 +95,7 @@
 	width: 200px;
 	height: auto;
 	margin: 0px;
+	padding-top: 20px;
 	margin-left: 10px;
 }
 
@@ -68,11 +103,13 @@
 	font-family: 'Ubuntu', sans-serif;
 	margin: 10px;
 	text-align: center; 
-	color: rgb(11,155,217);
+	color: rgba(11,41,100,.5);
 }
 
 .miniservices p {
 	margin: 10px;
 	font-family: 'Ubuntu', sans-serif;
 	color: #707C80;
+	line-height: 28px;
+	padding-bottom: 20px;
 }
