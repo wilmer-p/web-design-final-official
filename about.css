@@ -1,4 +1,4 @@
-#Horizontal{ /** Whole horizontal div with background image **/
+#Horizontal{ 
     width: 1000px;
     height: 1050px;
     background-color: white;;
@@ -17,14 +17,14 @@
 h1{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    color: rgba(11,41,100,.5); 
     padding-top: 30px;
 }
 
 h2{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(11,41,100,.5); /** The fourth "a" value is transparency**/
+    color: rgba(11,41,100,.5); 
     padding-top: 30px;
 }
 
@@ -35,7 +35,7 @@ h2{
     height: auto;
 }
 
-p{ /** Paragraph text, "Lorem ipsum..." **/
+p{ 
     padding-top: 10px; 
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
