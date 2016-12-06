@@ -20,10 +20,9 @@
 
 #menu{
     background-color: white;
-    width: 820px; /** used to be 730px**/
+    width: 820px; 
     height: 50px;
     margin-top: 58px;
-    /**padding-top: 60px;**/
     float: right;
     border-top: 2px solid #d9d9d9;
 }
@@ -49,11 +48,11 @@ li{
 
 li a{
     display: block;
-    color: rgb(11,41,100); /** #a6a6a6; << alternate grey color for menu font **/ 
+    color: rgb(11,41,100);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-bottom: 2px solid transparent; /**#d9d9d9;**/
+    border-bottom: 2px solid transparent; 
 
 }
 
@@ -83,7 +82,7 @@ li a:hover{ /** menu link hover state **/
 
 #footerMenu{
     background-color: white;
-    width: 600px; /** used to be 820px**/
+    width: 600px; 
     height: 30px;
     margin: 0 auto;
     padding-top: 1px;
